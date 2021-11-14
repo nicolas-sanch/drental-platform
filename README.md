@@ -23,6 +23,7 @@ As an investor, I want:
 ```sh
 git clone https://github.com/nicolas-sanch/drental-platform
 cd drental-platform
+git submodule update --init
 ```
 
 2. Deploy the contracts
