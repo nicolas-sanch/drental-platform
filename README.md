@@ -24,6 +24,7 @@ As an investor, I want:
 git clone https://github.com/nicolas-sanch/drental-platform
 cd drental-platform
 git submodule update --init
+yarn install
 cd front_end
 yarn install
 ```
