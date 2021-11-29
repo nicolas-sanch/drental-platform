@@ -24,6 +24,7 @@ As an investor, I want:
 git clone https://github.com/nicolas-sanch/drental-platform
 cd drental-platform
 git submodule update --init
+yarn install
 cd front_end
 yarn install
 ```
@@ -35,6 +36,8 @@ brownie run scripts/deploy.py --network kovan
 
 ## Deployed Contracts / Hash
 
-DRTToken deployed at: https://kovan.etherscan.io/address/0xa9940cACDd09a29DcA6662420b747d5b3a0dD867
+DRTToken deployed at:</br>
+https://kovan.etherscan.io/address/0xa9940cACDd09a29DcA6662420b747d5b3a0dD867
 </br>
-ForRentTransactions deployed at: https://kovan.etherscan.io/address/0x5b2FDF311d06A2D30ba7997C866F921e0E346136
+ForRentTransactions deployed at: </br>
+https://kovan.etherscan.io/address/0x5b2FDF311d06A2D30ba7997C866F921e0E346136
